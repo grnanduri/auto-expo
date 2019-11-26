@@ -32,7 +32,7 @@
   	<maven.compiler.source>1.8</maven.compiler.source>
   	<maven.compiler.target>1.8</maven.compiler.target>
   	<maven-surefire-plugin.version>2.19</maven-surefire-plugin.version>
- 	<jackson.version>1.9.2</jackson.version>
+ 	<jackson.version>2.9.10.1</jackson.version>
  	<extent.report.version>3.0.5</extent.report.version>
  	<framework.test.file>src/test/resources/com/grautoexpo/framework/TestNG_Master.xml</framework.test.file>
   </properties>
@@ -146,7 +146,7 @@
 	<dependency>
 	    <groupId>com.fasterxml.jackson.dataformat</groupId>
 	    <artifactId>jackson-dataformat-yaml</artifactId>
-	    <version>2.9.5</version>
+	    <version>2.9.10.1</version>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/net.sf.ezmorph/ezmorph -->
 	<dependency>
@@ -329,13 +329,13 @@
 	<dependency>
 	    <groupId>com.fasterxml.jackson.core</groupId>
 	    <artifactId>jackson-core</artifactId>
-	    <version>2.9.6</version>
+	    <version>2.9.10.1</version>
 	</dependency>
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 	<dependency>
 	    <groupId>com.fasterxml.jackson.core</groupId>
 	    <artifactId>jackson-databind</artifactId>
-	    <version>2.9.6</version>
+	    <version>2.9.10.1</version>
 	</dependency>
 		<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
 	<dependency>
